@@ -34,9 +34,16 @@
 .play_plus{
     background-color: var(--ps-light_plus);
 }
+
+.play_now{
+    background-color: var(--ps-now);
+}
 /* #endregion Main */
 
 /* #region Footer */
+footer{
+    background-color: var(--ps-primary_footer);
+}
 /* #endregion Footer */
 
 /* #region Debug */
