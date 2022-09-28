@@ -14,14 +14,36 @@
     --ps-lighter: #ffffff;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* #endregion common rules */
+
+/* #region Utilities */
+.bg_white{
+    background-color: var(--ps-lighter);
+}
+.text_black{
+    color: var(--ps-darker);
+}
+.btn_login{
+    background-color: var(--ps-dark_login);
+}
+/* #endregion Utilities */
 
 /* #region Header */
 .header_top{
     background-color: var(--ps-darker);
 }
-.navbar{
-    background-color: var(--ps-lighter);
+.header_top img{
+    width: 10%;
+}
+.nav-item img{
+    width: 10px;
+}
+.nav-link .lens{
+    width: 30px;
 }
 
 /* #endregion Header */
