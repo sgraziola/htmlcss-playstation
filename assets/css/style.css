@@ -27,6 +27,13 @@
 /* #endregion Header */
 
 /* #region Main */
+.new_releases{
+    background-color: var(--ps-dark_exit);
+}
+
+.play_plus{
+    background-color: var(--ps-light_plus);
+}
 /* #endregion Main */
 
 /* #region Footer */
@@ -54,6 +61,11 @@
 
 .debug .play5{
     height: 400px;
+}
+
+.debug .takes_two{
+    height: 400px;
+    background-color: #0070D1;
 }
 
 /* #endregion Debug */
