@@ -1,0 +1,53 @@
+/* #region common rules */
+:root {
+    --ps-primary_footer: #00439C;
+    --ps-primary_subtitle: #0070D1;
+    --ps-primary_button: #2D64E6;
+    --ps-now :#161C3B;
+    --ps-accent: #CD3D0F;
+    --ps-darker: #000000;
+    --ps-dark_exit: #1F1F1F;
+    --ps-dark_login: #363636;
+    --ps-light_para: #787878;
+    --ps-light_plus: #BEBCBB;
+    --ps-light_plus_btn: #D9DADC;
+    --ps-lighter: #ffffff;
+}
+
+/* #endregion common rules */
+
+/* #region Header */
+.header_top{
+    background-color: var(--ps-darker);
+}
+.navbar{
+    background-color: var(--ps-lighter);
+}
+
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+/* #region Debug */
+.debug .header_top{
+    height: 30px;
+}
+.debug .navbar{
+    height: 50px;
+}
+.debug .jumbotron{
+    height: 300px;
+    background-color: pink;
+}
+
+.debug .col{
+    height: 40px;
+    background-color: red;
+    border: 1px solid;
+}
+
+/* #endregion Debug */
