@@ -50,6 +50,9 @@ h2{
 .text_primary{
     color: var(--ps-primary_subtitle);
 }
+.opacity{
+    opacity: 0.5;
+}
 /* #endregion Utilities */
 
 /* #region Header */
@@ -83,6 +86,7 @@ h2{
 .takes_two img{
     width: 60%;
 }
+
 .new_releases{
     background-color: var(--ps-dark_exit);
 }
