@@ -51,7 +51,7 @@ h3 {
 }
 
 .p_size {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .p_gray {
@@ -116,6 +116,10 @@ h3 {
 
 .fa-trademark{
     font-size: 9px;
+}
+
+.fa-trademark,
+.fa-registered{
     vertical-align: super;
 }
 
@@ -136,6 +140,10 @@ h3 {
 
 .img_release img{
     border-radius: 1rem;
+}
+
+.fa-registered{
+    font-size: 15px;
 }
 
 .play_plus {
