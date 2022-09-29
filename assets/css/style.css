@@ -165,7 +165,6 @@ h3 {
 .play_now {
     background-color: var(--ps-now);
 }
-
 /* #endregion Main */
 
 /* #region Footer */
@@ -242,6 +241,10 @@ footer {
         width: 100px;
     }
 
+    .social .container{
+        padding: 0 5rem;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -267,6 +270,10 @@ footer {
 
     h3 {
         font-size: 35px;
+    }
+
+    .lg_custom{
+        max-width: 1140px;
     }
 }
 
