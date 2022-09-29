@@ -44,6 +44,7 @@ h3 {
 
 .btn_login {
     background-color: var(--ps-dark_login);
+    color: var(--ps-lighter);
 }
 
 .btn_accent {
@@ -150,6 +151,16 @@ h3 {
     background-color: var(--ps-light_plus);
 }
 
+.btn_plus{
+    background-color: var(--ps-light_plus_btn);
+    color: var(--ps-primary_subtitle);
+    border: 0;
+}
+
+.play_plus_txt img {
+    width: 330px;
+}
+
 .play_now {
     background-color: var(--ps-now);
 }
@@ -229,6 +240,16 @@ footer {
 
     .play5_thumb img {
         width: 100px;
+    }
+
+    .play_plus{
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+    }
+    .play_plus_txt p {
+        width: 44%;
     }
 
 }
