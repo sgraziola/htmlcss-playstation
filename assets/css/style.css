@@ -165,11 +165,42 @@ h3 {
 .play_now {
     background-color: var(--ps-now);
 }
+
 /* #endregion Main */
 
 /* #region Footer */
 footer {
     background-color: var(--ps-primary_footer);
+    padding: 5rem 0;
+}
+
+.logo_bot{
+    width: 100px;
+}
+.globe{
+    width: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--ps-lighter);
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+footer li{
+    line-height: 35px;
+}
+
+.sony_img img{
+    width: 155px;
+}
+
+footer a:hover{
+    color: var(--ps-lighter);
 }
 
 /* #endregion Footer */
