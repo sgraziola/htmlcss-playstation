@@ -115,6 +115,11 @@ h3 {
     border-bottom: 2px solid var(--ps-primary_subtitle);
 }
 
+.play5_thumb a{
+    color: var(--ps-darker);
+    text-decoration: none;
+}
+
 .fa-trademark{
     font-size: 9px;
 }
@@ -142,6 +147,12 @@ h3 {
 .img_release img{
     border-radius: 1rem;
 }
+
+.img_release a{
+    color: var(--ps-lighter);
+    text-decoration: none;
+}
+
 
 .fa-registered{
     font-size: 15px;
