@@ -1,0 +1,329 @@
+/* #region common rules */
+:root {
+    --ps-primary_footer: #00439C;
+    --ps-primary_subtitle: #0070D1;
+    --ps-primary_button: #2D64E6;
+    --ps-now: #161C3B;
+    --ps-accent: #CD3D0F;
+    --ps-darker: #000000;
+    --ps-dark_exit: #1F1F1F;
+    --ps-dark_login: #363636;
+    --ps-light_para: #787878;
+    --ps-light_plus: #BEBCBB;
+    --ps-light_plus_btn: #D9DADC;
+    --ps-lighter: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 47px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+/* #endregion common rules */
+
+/* #region Utilities */
+
+.bg_white {
+    background-color: var(--ps-lighter);
+}
+
+.text_black {
+    color: var(--ps-darker);
+}
+
+.btn_login {
+    background-color: var(--ps-dark_login);
+    color: var(--ps-lighter);
+}
+
+.btn_accent {
+    background-color: var(--ps-accent);
+}
+
+.p_size {
+    font-size: 21px;
+}
+
+.p_gray {
+    color: var(--ps-light_para);
+}
+
+.text_primary {
+    color: var(--ps-primary_subtitle);
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+/* #endregion Utilities */
+
+/* #region Header */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 5px 1px var(--ps-light_plus);
+}
+
+.header_top {
+    background-color: var(--ps-darker);
+}
+
+.header_top img {
+    width: 10%;
+}
+
+.nav-item img {
+    width: 10px;
+}
+
+.nav-link .lens {
+    width: 30px;
+}
+
+/* #endregion Header */
+
+/* #region Main */
+.jumbotron,
+.takes_two {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    padding-top: 21rem;
+}
+
+.jumbotron img,
+.takes_two img {
+    width: 60%;
+}
+
+.play5_thumb h6{
+    display: none;
+}
+
+.play5_thumb.active{
+    border-bottom: 2px solid var(--ps-primary_subtitle);
+}
+
+.play5_thumb a{
+    color: var(--ps-darker);
+    text-decoration: none;
+}
+
+.fa-trademark{
+    font-size: 9px;
+}
+
+.fa-trademark,
+.fa-registered{
+    vertical-align: super;
+}
+
+.takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    padding-top: 4rem;
+}
+
+.new_releases {
+    background-color: var(--ps-dark_exit);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.new_releases p {
+    font-size: 25px;
+}
+
+.img_release img{
+    border-radius: 1rem;
+}
+
+.img_release a{
+    color: var(--ps-lighter);
+    text-decoration: none;
+}
+
+
+.fa-registered{
+    font-size: 15px;
+}
+
+.play_plus {
+    background-color: var(--ps-light_plus);
+}
+
+.btn_plus{
+    background-color: var(--ps-light_plus_btn);
+    color: var(--ps-primary_subtitle);
+    border: 0;
+}
+
+.play_plus_txt img,
+.play_now_txt img {
+    width: 330px;
+}
+
+.play_now {
+    background-color: var(--ps-now);
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+footer {
+    background-color: var(--ps-primary_footer);
+    padding: 5rem 0;
+}
+
+.logo_bot{
+    width: 100px;
+}
+.globe{
+    width: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--ps-lighter);
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+footer li{
+    line-height: 35px;
+}
+
+.sony_img img{
+    width: 155px;
+}
+
+footer a:hover{
+    color: var(--ps-lighter);
+}
+
+/* #endregion Footer */
+
+/* #region Debug */
+.debug .header_top {
+    height: 30px;
+}
+
+.debug .navbar {
+    height: 50px;
+}
+
+.debug .jumbotron {
+    height: 400px;
+    background-color: pink;
+}
+
+.debug .carosel {
+    height: 200px;
+}
+
+.debug .col {
+    height: 40px;
+    background-color: red;
+    border: 1px solid;
+}
+
+.debug .play5 {
+    height: 400px;
+}
+
+.debug .takes_two {
+    height: 400px;
+    background-color: #0070D1;
+}
+
+/* #endregion Debug */
+
+/* region Responsive */
+@media screen and (min-width: 576px) {
+    h2 {
+        font-size: 41px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .play5_thumb.active{
+        border-bottom: 0;
+    }
+
+    .col.active{
+        border-bottom: 2px solid var(--ps-primary_subtitle);
+    }
+
+    .play5_thumb h6{
+        display: block;
+    }
+
+    .play5_thumb img {
+        width: 100px;
+    }
+
+    .social .container{
+        padding: 0 5rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .jumbotron img,
+    .takes_two img {
+        width: 225px;
+    }
+
+    .jumbotron p,
+    .takes_two p,
+    .takes_two h2 {
+        width: 33%;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .play5 .col-12.col-md-4 {
+        align-self: center;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .lg_custom{
+        max-width: 1140px;
+    }
+}
+
+/* #endregion Responsive */
