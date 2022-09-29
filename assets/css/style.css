@@ -157,14 +157,14 @@ h3 {
     border: 0;
 }
 
-.play_plus_txt img {
+.play_plus_txt img,
+.play_now_txt img {
     width: 330px;
 }
 
 .play_now {
     background-color: var(--ps-now);
 }
-
 
 /* #endregion Main */
 
@@ -240,16 +240,6 @@ footer {
 
     .play5_thumb img {
         width: 100px;
-    }
-
-    .play_plus{
-        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
-    }
-    .play_plus_txt p {
-        width: 44%;
     }
 
 }
