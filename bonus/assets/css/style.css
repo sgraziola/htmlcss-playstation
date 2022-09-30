@@ -42,13 +42,55 @@ h3 {
     color: var(--ps-darker);
 }
 
+.btn:hover{
+    box-shadow: 0 0 0 2px var(--ps-sb-color),
+    inset 0 0 0 2px var(--ps-sb-inset-color);
+}
+
 .btn_login {
     background-color: var(--ps-dark_login);
     color: var(--ps-lighter);
+    --bs-btn-hover-color:var(--ps-lighter);
+    --bs-btn-hover-bg: var(--ps-dark_login);
+    --ps-sb-color:var(--ps-dark_login);
+    --ps-sb-inset-color:var(--ps-lighter);
 }
 
-.btn_accent {
+.btn_custom_accent{
     background-color: var(--ps-accent);
+    color: var(--ps-lighter);
+    --bs-btn-hover-color:var(--ps-lighter);
+    --bs-btn-hover-bg: var(--ps-accent);
+    --ps-sb-color:var(--ps-accent);
+    --ps-sb-inset-color:var(--ps-darker);
+}
+
+
+.btn_custom_primary{
+    background-color: var(--ps-primary_button);
+    color: var(--ps-lighter);
+    --bs-btn-hover-color:var(--ps-lighter);
+    --bs-btn-hover-bg: var(--ps-primary_button);
+    --ps-sb-color:var(--ps-primary_button);
+    --ps-sb-inset-color:var(--ps-lighter);
+}
+
+.btn_plus{
+    background-color: var(--ps-light_plus_btn);
+    color: var(--ps-primary_subtitle);
+    --bs-btn-hover-color:var(--ps-primary_subtitle);
+    --bs-btn-hover-bg: var(--ps-light_plus_btn);
+    --ps-sb-color:var(--ps-light_plus_btn);
+    --ps-sb-inset-color:var(--ps-light_plus);
+}
+
+.btn_now{
+    background-color: var(--ps-lighter);
+    color: var(--ps-darker);
+    --bs-btn-hover-color:var(--ps-darker);
+    --bs-btn-hover-bg: var(--ps-lighter);
+    --ps-sb-color:var(--ps-lighter);
+    --ps-sb-inset-color:var(--ps-darker);
 }
 
 .p_size {
@@ -72,9 +114,10 @@ h3 {
 /* #region Header */
 header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
-    box-shadow: 0px 5px 1px var(--ps-light_plus);
 }
 
 .header_top {
@@ -82,7 +125,7 @@ header {
 }
 
 .header_top img {
-    width: 10%;
+    width: 70px;
 }
 
 .nav-item img {
@@ -96,6 +139,10 @@ header {
 /* #endregion Header */
 
 /* #region Main */
+#site_main{
+    margin-top: 116px;
+}
+
 .jumbotron,
 .takes_two {
     height: 800px;
@@ -169,11 +216,6 @@ header {
     background-color: var(--ps-light_plus);
 }
 
-.btn_plus{
-    background-color: var(--ps-light_plus_btn);
-    color: var(--ps-primary_subtitle);
-    border: 0;
-}
 
 .play_plus_txt img,
 .play_now_txt img {
