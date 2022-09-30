@@ -160,6 +160,13 @@ header {
 .takes_two img {
     width: 60%;
 }
+.game img{
+    transition: margin 0.5s;
+}
+.game img:hover{
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+}
 
 .play5_thumb h6{
     display: none;
