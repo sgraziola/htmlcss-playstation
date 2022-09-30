@@ -140,7 +140,7 @@ header {
 
 /* #region Main */
 #site_main{
-    margin-top: 116px;
+    margin-top: 108px;
 }
 
 .jumbotron,
@@ -331,6 +331,10 @@ footer a:hover{
 }
 
 @media screen and (min-width: 768px) {
+    #site_main{
+        margin-top: 116px;
+    }
+
     h2 {
         font-size: 36px;
     }
