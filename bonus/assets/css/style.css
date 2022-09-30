@@ -136,6 +136,16 @@ header {
     width: 30px;
 }
 
+header .dropdown-toggle::after {
+    display: none; 
+}
+
+.show:focus .down{
+    transform: rotate(180deg); 
+}
+
+
+
 /* #endregion Header */
 
 /* #region Main */
