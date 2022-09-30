@@ -151,6 +151,10 @@ header .show:focus .down{
     transform: rotate(180deg); 
 }
 
+header .dropdown-menu.show {
+    box-shadow: 0 7px 0 -5px rgb(0 0 0 / 15%);
+}
+
 header .dropdown-menu {
     width: 100vw;
     border: none;
@@ -163,7 +167,7 @@ header .dropdown-menu {
 }
 
 .dropdown-item:hover{
-    box-shadow: 0 0 5px 5px var(--ps-light_para);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.336);
 }
 
 header .dropdown{
@@ -182,7 +186,23 @@ a.dropdown-item {
 }
 
 .divisore{
-    border-top: 1px solid var(--ps-light_para);
+    box-shadow: 0 -7px 0 -5px rgb(0 0 0 / 15%)
+}
+
+.divisore .dropdown-item:hover{
+    box-shadow: none;
+    text-decoration: underline;
+    color: var(--ps-primary_subtitle);
+}
+
+.divisore ul li{
+    display: inline-block;
+}
+
+.dropdown-item .fa-circle{
+    font-size: 5px;
+    vertical-align: middle;
+    color: var(--ps-primary_subtitle);
 }
 
 /* #endregion Header */
