@@ -228,7 +228,6 @@ header {
     background-color: var(--ps-light_plus);
 }
 
-
 .play_plus_txt img,
 .play_now_txt img {
     width: 330px;
@@ -236,6 +235,18 @@ header {
 
 .play_now {
     background-color: var(--ps-now);
+}
+
+.social .col:hover,
+.playstore .col:hover,
+.play5 .col:hover {
+    transform: scale(1.1);
+}
+
+.social .col,
+.playstore .col,
+.play5 .col{
+    transition: transform 1s;
 }
 
 /* #endregion Main */
