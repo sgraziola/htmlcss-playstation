@@ -42,6 +42,10 @@ h3 {
     color: var(--ps-darker);
 }
 
+.btn{
+    transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .25s ease-in-out;
+}
+
 .btn:hover{
     box-shadow: 0 0 0 2px var(--ps-sb-color),
     inset 0 0 0 2px var(--ps-sb-inset-color);
